@@ -5,7 +5,8 @@
 
 jobs:
 - deployment: DeploymentJob
-
+pool:
+  vmImage: ubuntu-latest
 strategy:
   runOnce:
     deploy:
