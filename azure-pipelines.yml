@@ -2,7 +2,7 @@ jobs:
 - deployment: DeploymentJob
 pool:
   vmImage: $(vmImageName)
-environment: $(environmentName)
+
 strategy:
   runOnce:
     deploy:
