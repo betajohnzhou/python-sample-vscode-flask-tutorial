@@ -26,7 +26,7 @@ steps:
   displayName: 'Use Python $(python.version)'
 
 - script: |
-	python -m venv antenv
-	python -m pip install --upgrade pip
-	pip install setup
-	pip install -r requirements.txt
+  python -m venv antenv
+  python -m pip install --upgrade pip
+  pip install setup
+  pip install -r requirements.txt
